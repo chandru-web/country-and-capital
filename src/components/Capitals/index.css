@@ -1,0 +1,35 @@
+/* Write your CSS here */
+
+.app-container {
+  background-color: #93c5fd;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.country-capital-container {
+  background-color: #fff;
+  height: 400px;
+  width: 500px;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.country-name {
+  color: #000;
+  font-size: 32px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+.select-container {
+  display: flex;
+}
+select {
+  margin-right: 10px;
+  height: 30px;
+  width: 150px;
+  margin-top: 16px;
+}
